@@ -1,103 +1,85 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
-header{
-    background-color: #2d3a49;
-    padding-top: 15px;
-}
-nav{
-    background-color: #37475A;
-    margin-top: 10px;
-    padding: 10px 20px;
-}
-nav a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 300;
-    padding: 0px 10px;
-}
-#logo{
-    width: 150px;
-    padding-left:25px ;
-}
-main{
-    width: 90%;
-    margin: 0 auto;
-}
-#gift{
-    text-align: center;
-    background-color: rgb(218, 84, 31);
-    margin: 25px 0px;
-    padding: 5px;
-}
-#gift p{
-color: white;
-}
-#Holiday{
-    text-align: center;
-    font-size: 12px;
-    color:white;
-    background-image: url(./img/barra.png);
+.logo{
+    width: 18%;
+    margin-left: 40%;
     padding: 20px;
-    
 }
-#Holiday h2{
-    margin-bottom: 20px;
-}
-#titoli{
-    padding: 20px;
-    font-weight: 600;
-}
-#titoli span{
-    color: rgb(34, 142, 167);
-    font-size: 14px;
+.first-line{
+    text-align: center;
+    padding: 35px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(240, 230, 201);
+    border-top: 2px solid #eeaa45;
+    color: rgb(58, 73, 33);
 }
 .container{
-    background-color:rgb(255, 255, 255);
-   margin:15px 0px ;
+    width: 750px;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.img{
-    width: 22%;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 12px;
-    margin: 15px;
-    
-}
-.vr{
-    width: 100%;
-}
-.text{
+h1{
+    padding: 20px;
     text-align: center;
-    font-size: 12px;
-    font-weight: 600;
-    margin-bottom: 18px;
 }
-.text span{
-    color: rgb(34, 142, 167);
-    font-size: 10px;
-    font-weight: bolder;
-}
-.marshall{
+.image{
     width: 100%;
+    padding-top: 20px;
+    border-radius: 10px;
+    height: 500px;
+    object-fit: cover;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.autor-img{
+    color: darkgray;
+    text-align: center;
+}
+.underimg{
+    border-left: 2px solid rgb(238, 176, 53) ;
+    padding: 20px;
+}
+.orange{
+    color: chocolate;
+}
+.green{
+    color: cadetblue;
+    text-decoration: underline;
+}
+.Ingredients{
+    color: rgb(57, 56, 56);
+    font-size: 25px;
+    margin: 20px;
+}
+.divisore{
+    color: rgb(151, 237, 237);
+    margin: 20px;
+}
+.first-list{
+    padding: 20px;
+}
+.second-list{
+    padding: 20px;
+}
+.method{
+    color: rgb(57, 56, 56);
+    font-size: 25px;
+   padding: 20px;
+}
+.title-second-list{
+    padding: 20px;
+}
+li{
+    padding: 13px;
+}
+.last-text{
+    padding-left: 13px;
 }
 .last-line{
-    background-color: #37475A;
-    padding: 10px;
-}
-.last-line a{
-    color: white;
-    margin-left: 715px;
-    font-size: 10px;
-    font-weight: bold;
-}
-.last-logo{
-    width: 100px;
-}
-.container-logo{
-    background-color: #2d3a49;
-    padding: 35px 700px;
+    padding: 20px;
+    text-align: center;
 }
